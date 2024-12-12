@@ -3,87 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootsrap Projet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">MonBlog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MonBlog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid justify-content-center" id="section1">
+            <div class="row m-5 justify-content-center">
+                <div class="col-12">
+                    <h1 class="text-center fw-bold">PHOTOS</h1>
+                    <h3 class="text-center text-secondary fs-light">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row m-md-5 justify-content-center">
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body text-start">
+                        <h5 class="card-text">Sunrise</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/b.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-text">Mésange</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/c.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-text">Faucon</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-md-5 justify-content-center">
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/d.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-text">Martin-pêcheur</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/e.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-text">Sunset</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="./img/f.jpg" alt="" height="220" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-text">Colibrie</h5>
+                        <p class="text-secondary card-text">Photography</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class=col">
-                <h1 class="text-center">PHOTOS</h1>
-                <h3 class="text-center text-secondary">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
+        <div class="container-fluid p-md-5" id="form-section">
+            <div class="row p-md-5" id="formrow1">
+                <div class="col-12 mt-5">
+                    <h1 class="text-center text-light mt-md-5">CONTACT US</h1>
                 </div>
             </div>
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
+            <div class="row">
+                <div class="col-8 offset-2 col-md-4 offset-md-2">
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control py-3" placeholder="Name *">
+                    </div>
+                    <div class="input-group mb-4">
+                        <input type="email" class="form-control py-3" placeholder="Email *">
+                    </div>
+                    <div class="input-group mb-4">
+                        <input type="tel" class="form-control py-3" placeholder="Phone *">
+                    </div>
+                </div>
+                <div class="col-8 offset-2 offset-md-0 col-md-4">
+                    <div class="input-group">
+                        <textarea name="" id="" class="form-control py-3" rows="8" placeholder="Message *"></textarea>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
-                </div>
-            </div>
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
-                </div>
-            </div>
-            <div class="card" style="width: 22rem;">
-                <img src="./img/a.jpg" alt="" height="220" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-text">Sunrise</h5>
-                    <p class="text-secondary card-text">Photography</p>
+            <div class="row mt-4">
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-secondary disabled">Send Message</button>
                 </div>
             </div>
         </div>
-    </div>
-
+    </main>
+    <footer>
+        <div class="container-fluid py-4">
+            <div class="row text-center">
+                <div class="col-12 col-md-2">
+                    <span>Copyright &copy Qlex</span>
+                </div>
+                <div class="col-12 mt-2 mt-md-0 col-md-8">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none" href="https://www.facebook.com/">
+                                <i class="bi bi-facebook fs-3 icons"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none" href="https://x.com/">
+                                <i class="bi bi-twitter fs-3 icons"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none" href="https://www.instagram.com/">
+                                <i class="bi bi-instagram fs-3 icons" ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

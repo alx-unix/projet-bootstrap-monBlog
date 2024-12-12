@@ -3,14 +3,46 @@
     justify-content: space-around;
 }
 
-
-.container{
-    margin-top: 10rem;
+main{
+    margin-top: 15rem;
 }
 
-.row{
-    justify-content: space-evenly;
+#section1{
+    margin-bottom: 10rem;
 }
+
+
+
 .card{
     border: none;
 }
+
+#form-section{
+    background-image: url(img/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 800px;
+    filter:grayscale(70%);
+}
+
+.card{
+    --bs-card-spacer-y:0rem;
+    --bs-card-spacer-x:0rem;
+}
+
+
+@media (max-width:768px){
+
+    #form-section{
+        height: 700px;
+    }
+    main{
+        margin-top: 0;
+    }
+    #section1{
+        margin-bottom: 2rem;
+    }
+}
+
+
