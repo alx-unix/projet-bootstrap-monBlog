@@ -45,4 +45,7 @@ main{
     }
 }
 
+.card{
+    cursor: pointer;
+}
 
